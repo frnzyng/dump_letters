@@ -11,9 +11,15 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.28.1-beta.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@project-serum/borsh": "^0.2.5",
     "@solana/web3.js": "^1.87.0",
     "Buffer": "^0.0.0",
+    "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0"
