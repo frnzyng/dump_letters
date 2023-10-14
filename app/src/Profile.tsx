@@ -9,7 +9,7 @@ import React from 'react';
 import dayjs from 'dayjs';
 import * as relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
-import '/Profile.css'
+import '/Profile.css';
 
 window.Buffer = Buffer;
 const connection = new Connection(clusterApiUrl("devnet"), "processed");
