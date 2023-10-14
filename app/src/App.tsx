@@ -96,7 +96,7 @@ function App() {
             </div>
           ) : (
             <div className='app-content'>
-              <img src='/src/assets/dump-letters-icon.png' className="hero-icon" alt='dump-letters-icon' />
+              <img src='../src/assets/dump-letters-icon.png' className="hero-icon" alt='dump-letters-icon' />
               <h1>Dump_Letters</h1>
               <p className='description'>A place to anonymously dump your message to someone or anyone.</p>
               <button className="connect-button" onClick={connectWallet}>Connect Phantom Wallet</button>
