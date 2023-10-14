@@ -4,7 +4,7 @@ import { Buffer } from "buffer";
 import { idl } from "./idl";
 import { useState, useEffect } from 'react'
 import { Navigate } from 'react-router-dom';
-import { Letter } from "./model/Letter";
+import { Letter } from "./model/Letter.ts";
 import React from 'react';
 import dayjs from 'dayjs';
 import * as relativeTime from 'dayjs/plugin/relativeTime';
