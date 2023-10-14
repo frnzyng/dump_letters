@@ -8,7 +8,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
 import HomePage from './Home';
 import SearchPage from './Search';
 import ProfilePage from './Profile';
-import './App.css'
+import './App.css';
 
 function App() {
   const [provider, setProvider] = useState(undefined);
