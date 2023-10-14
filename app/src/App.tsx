@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
-import HomePage from './src/Home';
+import HomePage from './Home';
 import SearchPage from './Search';
 import ProfilePage from './Profile';
 import './App.css'
