@@ -1,15 +1,15 @@
 import { AnchorProvider, Program } from '@coral-xyz/anchor';
 import { PublicKey, Connection, clusterApiUrl } from '@solana/web3.js';
 import { Buffer } from "buffer";
-import { idl } from "./idl";
+import { idl } from "/idl";
 import { useState, useEffect } from 'react'
 import { Navigate } from 'react-router-dom';
-import { Letter } from "./model/Letter";
+import { Letter } from "/model/Letter";
 import React from 'react';
 import dayjs from 'dayjs';
 import * as relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
-import './Search.css'
+import '/Search.css'
 
 window.Buffer = Buffer;
 const connection = new Connection(clusterApiUrl("devnet"), "processed");
