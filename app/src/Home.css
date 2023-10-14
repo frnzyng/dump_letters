@@ -1,0 +1,169 @@
+.home-block-container {
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+
+/* Home Content Container */
+/* Create Letter Container */
+.form-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--clr-light);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  width: 800px;
+}  
+
+.character-count {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--clr-accent);
+}
+
+.input1-container {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+}
+
+.input1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 700px;
+}
+
+.receiver-input {
+  width: 100%;
+}
+
+.input2-container {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+}
+
+.message-input {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+.button-container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.cancel-button {
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 150px;
+  background-color: var(--clr-dark);
+  border-radius: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--clr-light);   
+  color: var(--clr-light); 
+}
+
+.submit-button {
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 150px;
+  border-radius: 15px;
+  border-width: 0;
+  background-color: var(--clr-light);
+  color: var(--clr-dark); 
+}
+
+/* Mailbox */
+.mailbox-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  gap: 30px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.create-letter-button {
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 25%;
+  border-radius: 15px;
+  border-width: 0;
+  background-color: var(--clr-light);
+  color: var(--clr-dark); 
+}
+
+.letter-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-color: var(--clr-accent);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  gap: 20px;
+  width: 800px;
+}
+
+.section1-letter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section2-letter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 720px;
+  gap: 30px;
+}
+
+.message {
+  padding-top: 30px;
+  word-wrap: break-word;
+}
+
+

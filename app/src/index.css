@@ -1,0 +1,94 @@
+:root {
+  --clr-light: #FFFFFF;
+  --clr-dark: #242424;
+  --clr-accent: #545454;
+  --clr-button: #FFFFFF;
+  --clr-button-hover: #545454;
+  --ff-heading: "Fira Code", monospace;
+  --ff-body: "Helvetica", sans-serif;
+  --fw-reg: 400;
+
+  --fs-h1: 3.5rem;
+  --fs-h2: 2rem;
+  --fs-h3: 2.5rem;
+  --fs-body: 1.075rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-body);
+  font-size: 16px;
+  color: var(--clr-light);
+  background-color: var(--clr-dark);
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-reg);
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-reg);
+}
+
+label {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  font-family: var(--ff-heading);
+}
+
+button:hover {
+  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-body);
+}
+
+a:hover {
+  background-color: var(--clr-accent);
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  margin: 5px;
+  padding: 15px;
+  border-color: var(--clr-accent);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+textarea {
+  margin: 5px;
+  padding: 15px;
+  border-color: var(--clr-accent);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+}
