@@ -5,10 +5,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
-import HomePage from '../src/Home';
-import SearchPage from './Search';
-import ProfilePage from './Profile';
-import './App.css'
+import HomePage from '/src/Home';
+import SearchPage from '/Search';
+import ProfilePage from '/Profile';
+import '/App.css'
 
 function App() {
   const [provider, setProvider] = useState(undefined);
@@ -96,7 +96,7 @@ function App() {
             </div>
           ) : (
             <div className='app-content'>
-              <img src='../src/assets/dump-letters-icon.png' className="hero-icon" alt='dump-letters-icon' />
+              <img src='/src/assets/dump-letters-icon.png' className="hero-icon" alt='dump-letters-icon' />
               <h1>Dump_Letters</h1>
               <p className='description'>A place to anonymously dump your message to someone or anyone.</p>
               <button className="connect-button" onClick={connectWallet}>Connect Phantom Wallet</button>
